@@ -269,10 +269,8 @@ void print_dlist(DLIST *head)
  int i=0;
 	while(head!=NULL)
 	 {
-	i++;
- if (i ==200) break;
-		 printf("%d(%d) ",head->ID, head);
-		 head=head->next;
+		i++;
+		head=head->next;
 	 }
 }
 

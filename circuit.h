@@ -123,6 +123,8 @@ void reset (FCLIST *, NET *, CELL *, int *, NODE *, int, int *, int *);
 void update_net_array (NODE *, NET *, CELL *, int );
 int count_dlist(DLIST *); 
 void reset_all (FCLIST *,CELL *, int *, int *);
+void bucket_list_initialization (DLIST *,DLIST *, int);
+
 
 
 
